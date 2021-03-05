@@ -1,0 +1,76 @@
+body {
+    background-color: rgba(0, 0, 0, 0.76);
+    width: 350px;
+    height: 200px;
+}
+
+.scu-start {
+    background-color: #534caf; 
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+
+.small-btn {
+    position: absolute;
+    margin-left: 276px;
+    margin-top: 13px;
+    width:68px;
+    height: 35px;
+    border-radius: 11px;
+    outline: none;
+    border: none;
+    background-color: rgba(183, 0, 255, 0.329);
+    color: white;
+    cursor: pointer;
+}
+
+.small-btn:hover, .scu-start:hover {
+    color: rgb(165, 155, 255);
+}
+.small-btn:active, .scu-start:active {
+    background-color: #000000;
+}
+hr {
+    border-color: rgb(113, 146, 168);
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid rgba(84, 38, 122, 0.753);
+}
+
+.su {
+    font-size: large;
+    color: cornflowerblue;
+    font-weight: 700;
+}
+
+
+#contact {
+    color: cornflowerblue;
+    padding: 10px;
+    cursor: pointer;
+}
