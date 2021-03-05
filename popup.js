@@ -47,7 +47,7 @@ document.addEventListener(
             function () {
                 url = document.getElementById("url").value
                 if(validURL(url)){
-                    param = makeid(7);
+                    param = makeid(4);
                     req = new XMLHttpRequest()
                     form = new FormData()
                     form.append("txt_name", param)
