@@ -1,1 +1,1 @@
-# urlShortcut-chrome-extension
+### URL Shortcut Extension for Google Chrome ✂
